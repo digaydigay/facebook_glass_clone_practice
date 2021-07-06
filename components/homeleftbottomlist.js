@@ -5,7 +5,7 @@ export default function homeleftlist({ name, image }) {
   return (
     <li className="home_left_bottom_list">
       <div className="poster">
-        <Img src={image} alt="img" width="30px" height="30px" />
+        <img src={image} alt="img" width="30px" height="30px" />
       </div>
       <div className="category">
         <p style={{ fontSize: "14px" }}>{name}</p>
