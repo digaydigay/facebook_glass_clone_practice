@@ -1,0 +1,32 @@
+.home_body {
+  padding: 0 10px;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1100px) {
+  .home_left {
+    display: none;
+  }
+  .home_body {
+    grid-template-columns: 1fr 280px;
+  }
+}
+
+@media screen and (max-width: 878px) {
+  .home_left {
+    display: none;
+  }
+  .home_body {
+    grid-template-columns: 1fr;
+    padding: 0 7px;
+  }
+  .home_right {
+    display: none;
+  }
+}
