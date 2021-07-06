@@ -23,7 +23,7 @@ export default function homeleft() {
         <div className="user_post_container">
           <div className="top_level">
             <div >
-              <Img className="dp" src="https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.6435-1/c0.62.160.160a/p160x160/201009229_1445123309188047_2496517498265143262_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=7206a8&_nc_eui2=AeH6uwGavB_RCUPf6iTFz5nEPMXf3dgx_KE8xd_d2DH8ocAV1aXQDqlm6-37AvhTmrGqJzIzwrToASCmx0F1E5YK&_nc_ohc=-W7gQyaiMJ8AX8iYiCk&_nc_ht=scontent.fmnl6-1.fna&tp=27&oh=f02396767a7211eb686a912fc95f7711&oe=60E2D8D5" alt="dp" width="25px" height="25px" />
+              <Img className="dp" src="https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.6435-9/201009229_1445123309188047_2496517498265143262_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeH6uwGavB_RCUPf6iTFz5nEPMXf3dgx_KE8xd_d2DH8ocAV1aXQDqlm6-37AvhTmrGqJzIzwrToASCmx0F1E5YK&_nc_ohc=Oce1yYE5350AX9YcnI-&_nc_ht=scontent.fmnl6-1.fna&oh=7a99b82c5fdfd0271bc0513c989380f9&oe=60E93781" alt="dp" width="25px" height="25px" />
             </div>
             <button className="create_post">Whats On Your Mind?</button>
           </div>

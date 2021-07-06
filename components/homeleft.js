@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import HomeLeftTopList from "./homelefttoplist"
-import HomeLeftBottomList from "./homeleftBottomlist"
+import HomeLeftBottomList from "./homeleftbottomlist"
 
 
 export default function Homeleft() {
