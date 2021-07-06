@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 
-import HomeLeft from "../components/homeLeft"
+import HomeLeft from "../components/homeleft"
 import HomeCenter from "../components/homecenter"
 import HomeRight from "../components/homeright"
 

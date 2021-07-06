@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Image from "next/image"
-import logo from "../pages/images/facebook.png"
 import SearchModal from './searchmodal'
 import { UseInputRef } from "../Api/contextinput"
 
