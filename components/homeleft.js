@@ -3,7 +3,7 @@ import HomeLeftTopList from "./homelefttoplist"
 import HomeLeftBottomList from "./homeleftBottomlist"
 
 
-export default function homeleft() {
+export default function Homeleft() {
   const [see, setSee] = useState(false)
   return (
     <div className="home_left">

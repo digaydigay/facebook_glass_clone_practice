@@ -4,7 +4,7 @@ import logo from "../pages/images/facebook.png"
 import SearchModal from './searchmodal'
 import { UseInputRef } from "../Api/contextinput"
 
-export default function navleft() {
+export default function Navleft() {
   const [activeSearch, setActiveSearch] = useState(false)
   const { input, setInput } = UseInputRef()
   const Search = () => {

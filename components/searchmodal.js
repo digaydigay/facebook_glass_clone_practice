@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 
 
 
-export default function searchmodal({ active, setActive, input, setInput }) {
+export default function Searchmodal({ active, setActive, input, setInput }) {
   const inputRef = useRef()
 
   useEffect(() => {

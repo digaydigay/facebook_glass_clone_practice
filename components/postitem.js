@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from "next/image"
 
 export default function postitem({ image, dp, user, video, update, description }) {
   return (
@@ -9,7 +10,7 @@ export default function postitem({ image, dp, user, video, update, description }
 
         <div className="user_post_info">
           <div className="dp">
-            <img src={dp} alt="dp" width="25px" height="25px" />
+            <Img src={dp} alt="dp" width="25px" height="25px" />
           </div>
           <div className="post_user_time">
             <h5 className="user">{user}</h5>
@@ -39,11 +40,11 @@ export default function postitem({ image, dp, user, video, update, description }
       {
         !video ?
           <div className="img_container">
-            <img src={image} alt="img" />
+            <Img src={image} alt="img" />
           </div>
           :
           <div className="video_container">
-            <iframe src={video} allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src={video} allowFullScreen={true} ></iframe>
           </div>
       }
       {/* post body ends */}

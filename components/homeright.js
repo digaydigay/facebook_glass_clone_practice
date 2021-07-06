@@ -9,14 +9,14 @@ export default function homeleft() {
         <h6>Sponsored</h6>
         <ul className="lists">
           <li className="item">
-            <img src="https://scontent.fmnl6-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/spS444/p960x960/186227781_23848280587240302_1628454058065163712_n.png.jpg?_nc_cat=107&ccb=1-3&_nc_sid=67cdda&_nc_eui2=AeFtLxBlEaqIIFA7kjonWHLfMd0--ozZFMEx3T76jNkUwYhm-cEWtImRPgPq6bsb_fsx-NGI8hg4-zw9enz7vfgP&_nc_ohc=IUWlGQD605AAX9XP5Tg&_nc_ht=scontent.fmnl6-1.fna&tp=31&oh=4580b709107542ebc0fda9bb8f90d459&oe=60E4519B" alt="img" />
+            <Img src="https://scontent.fmnl6-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/spS444/p960x960/186227781_23848280587240302_1628454058065163712_n.png.jpg?_nc_cat=107&ccb=1-3&_nc_sid=67cdda&_nc_eui2=AeFtLxBlEaqIIFA7kjonWHLfMd0--ozZFMEx3T76jNkUwYhm-cEWtImRPgPq6bsb_fsx-NGI8hg4-zw9enz7vfgP&_nc_ohc=IUWlGQD605AAX9XP5Tg&_nc_ht=scontent.fmnl6-1.fna&tp=31&oh=4580b709107542ebc0fda9bb8f90d459&oe=60E4519B" alt="img" />
             <div className="title">
               <h6>DataCamp</h6>
               <p>datacamp.com</p>
             </div>
           </li>
           <li className="item">
-            <img src="https://scontent.fmnl6-2.fna.fbcdn.net/v/t45.1600-4/cp0/q90/spS444/p296x100/117301869_23845181013760721_7067230626576790910_n.png.jpg?_nc_cat=106&ccb=1-3&_nc_sid=67cdda&_nc_eui2=AeE217FLYWn4kJ4Xlnvz5XiHrK-rgCh9Zs2sr6uAKH1mzfY26VuCCOFzpaQbU8wkVnpUMExRcDdqWqjKwk00eAvo&_nc_ohc=GHw1mQZnLqoAX_0kifW&_nc_ht=scontent.fmnl6-2.fna&tp=31&oh=83f5055e7de94678677348de5f569e37&oe=60E42C7D" alt="img" />
+            <Img src="https://scontent.fmnl6-2.fna.fbcdn.net/v/t45.1600-4/cp0/q90/spS444/p296x100/117301869_23845181013760721_7067230626576790910_n.png.jpg?_nc_cat=106&ccb=1-3&_nc_sid=67cdda&_nc_eui2=AeE217FLYWn4kJ4Xlnvz5XiHrK-rgCh9Zs2sr6uAKH1mzfY26VuCCOFzpaQbU8wkVnpUMExRcDdqWqjKwk00eAvo&_nc_ohc=GHw1mQZnLqoAX_0kifW&_nc_ht=scontent.fmnl6-2.fna&tp=31&oh=83f5055e7de94678677348de5f569e37&oe=60E42C7D" alt="img" />
             <div className="title">
               <h6>Sign Up For free Now</h6>
               <p>framer.com</p>
