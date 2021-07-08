@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from "next/image"
-export default function homeleftlist({ name, icon }) {
+export default function homeleftlist({ name, icon, dp }) {
   return (
     <li className="home_left_top_list">
       {
@@ -10,7 +10,7 @@ export default function homeleftlist({ name, icon }) {
           </div>
           :
           <div className="dp">
-            {/* <Img layout="fill" src="/images/profile.JPG" alt="dp" /> */}
+            <Img layout="fill" src={dp} alt="dp" />
           </div>
       }
 

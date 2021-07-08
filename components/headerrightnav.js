@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from "next/image"
+import dp from "../pages/images/profile.jpg"
 
 export default function navright() {
   return (
@@ -8,7 +9,7 @@ export default function navright() {
       <div className="header_right_content">
         <div className="profile" >
           <div className="dp">
-            {/* <Img layout="fill" src="/images/profile.JPG" alt="dp" /> */}
+            <Img layout="fill" src={dp} alt="dp" />
           </div>
           <h5>Jonathan</h5>
         </div>

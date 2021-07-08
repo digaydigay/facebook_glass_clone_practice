@@ -324,10 +324,12 @@
 .post_item .img_container {
   position: relative;
   width: 100%;
+  min-height: 500px;
   margin: auto;
   border-radius: 5px;
   max-width: 100%;
   overflow: hidden;
+  background: red;
 }
 .post_item .iframe_wrapper {
   width: 100%;
@@ -348,6 +350,8 @@
   width: 100%;
   height: 100%;
   object-fit: fill;
+  border: none;
+  border-radius: 5px;
 }
 .post_item p,
 .post_item h5 {

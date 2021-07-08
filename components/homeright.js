@@ -12,7 +12,6 @@ export default function homeleft() {
             <div className="poster">
               <Img layout="fill" src={mark} alt="dp" />
             </div>
-
             <div className="title">
               <h6>Sponsored Name</h6>
               <p>Domain.com</p>
@@ -54,9 +53,9 @@ export default function homeleft() {
         </div>
 
         <ul className="lists">
-          {/* <li className="item"><Img layout="fill" src="/images/profile.JPG" alt="dp" />Mark Zackerburg</li>
-          <li className="item"><Img layout="fill" src="/images/profile.JPG" alt="dp" />Bill gates</li>
-          <li className="item"><Img layout="fill" src="/images/profile.JPG" alt="dp" />Jeff Bezos</li> */}
+          <li className="item"><div className="poster"><Img layout="fill" src={mark} alt="dp" /></div>Mark Zackerburg</li>
+          <li className="item"><div className="poster"><Img layout="fill" src={mark} alt="dp" /></div>Mark Zackerburg</li>
+          <li className="item"><div className="poster"><Img layout="fill" src={mark} alt="dp" /></div>Mark Zackerburg</li>
         </ul>
       </div>
 

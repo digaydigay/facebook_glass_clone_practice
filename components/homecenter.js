@@ -2,7 +2,9 @@ import React from 'react'
 import MyDayCard from "./mydaycards"
 import UserRoom from "./userroom"
 import PostItem from "./postitem"
-
+import Img from "next/image"
+import dp from "../pages/images/profile.jpg"
+import mark from "../pages/images/mark.jpg"
 
 export default function homeleft() {
   return (
@@ -11,11 +13,11 @@ export default function homeleft() {
         {/* My days */}
         <div className="my_day_cards_main">
           <div className="my_day_cards_container">
-            <MyDayCard create="Create Story" poster={true} />
-            <MyDayCard user="Mark Zackerburg" poster={true} />
-            <MyDayCard user="Bill Gates" poster={true} />
-            <MyDayCard user="Elon Mask" poster={true} />
-            <MyDayCard user="Jeff Bezos" poster={true} />
+            <MyDayCard create="Create Story" dp={dp} />
+            <MyDayCard user="Mark Zackerburg" dp={mark} />
+            <MyDayCard user="Bill Gates" dp={mark} />
+            <MyDayCard user="Elon Mask" dp={mark} />
+            <MyDayCard user="Jeff Bezos" dp={mark} />
           </div>
           <div className="arrow_slide"><i className="fas fa-chevron-right"></i></div>
         </div>
@@ -23,7 +25,7 @@ export default function homeleft() {
         <div className="user_post_container">
           <div className="top_level">
             <div className="dp">
-              {/* <Img layout="fill" src="/images/profile.JPG" alt="dp" /> */}
+              <Img layout="fill" src={dp} alt="dp" />
             </div>
             <button className="create_post">Whats On Your Mind?</button>
           </div>
@@ -37,12 +39,15 @@ export default function homeleft() {
         <div className="room_container">
           <div className="room">
             <div className="create_room"><i className="fas fa-video"></i> <h5>Create Room</h5></div>
-            <UserRoom />
-            <UserRoom />
-            <UserRoom />
-            <UserRoom />
-            <UserRoom />
-            <UserRoom />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
+            <UserRoom dp={mark} />
           </div>
         </div>
         {/* Users post */}
@@ -52,12 +57,7 @@ export default function homeleft() {
               description={"Happy July 4th! "}
               video={"https://www.facebook.com/plugins/video.php?height=347&href=https%3A%2F%2Fweb.facebook.com%2Fzuck%2Fvideos%2F958428441660961%2F&show_text=false&width=560&t=0"}
             />
-            <PostItem user={"Mark Zackurberg"} update={"Update Profie Picture"}
-            />
-
-            <PostItem user={"Mark Zackurberg"} update={"Update Profie Picture"}
-              description={"Some good news reading: teams at the Chan Zuckerberg Initiative and Biohub have been building IDseq -- an open source infectious disease genetic sequencing tool that can serve as an early warning system around the world. We were building it when Covid hit, and in Cambodia it was used to confirm the country's first case and inform their prevention efforts."}
-            />
+            <PostItem user={"Mark Zackurberg"} update={"Update Profie Picture"} />
             <PostItem user={"Mark Zackurberg"}
               video={"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fzuck%2Fvideos%2F10113254118477121%2F&show_text=false&width=560&t=0"}
             />

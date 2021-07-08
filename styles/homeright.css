@@ -1,7 +1,7 @@
 .home_right {
   background: rgb(255, 255, 255, 0.4);
   border-radius: 10px;
-  height: 100%;
+  height: calc(100vh - 50px);
   padding: 0 20px 20px;
   overflow: scroll;
   overflow-x: hidden;
@@ -15,7 +15,7 @@
   position: relative;
 }
 .home_right::-webkit-scrollbar-thumb {
-  background: rgb(207, 206, 206);
+  background: rgb(224, 223, 223);
   border-radius: 10px;
 }
 .home_right {
@@ -46,18 +46,20 @@
   margin: 20px 0;
   position: relative;
 }
-.home_right_top_content .lists .item img {
-}
 .home_right_top_content .lists .item .poster {
   width: 200px;
   max-width: 200px;
+  height: 100%;
   margin: 10px;
-  height: 200px;
   box-shadow: 0 0 3px 0 #44a0d4;
-  background: red;
-  height: unset;
   border-radius: 10px;
   position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home_right_top_content .lists .item .poster img {
+  height: 100%;
 }
 
 .home_right_middle_content .lists,
@@ -89,4 +91,21 @@
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.home_right_bottom_content .lists .item {
+  position: relative;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home_right_bottom_content .lists .item .poster {
+  height: 30px;
+  width: 30px;
+  max-width: 50px;
+  position: relative;
+  margin-right: 5px;
+  border-radius: 50%;
+  overflow: hidden;
 }

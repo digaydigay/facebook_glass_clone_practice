@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import HomeLeftTopList from "./homelefttoplist"
 import HomeLeftBottomList from "./homeleftbottomlist"
+import dp from "../pages/images/profile.jpg"
 
 
 export default function Homeleft() {
@@ -9,7 +10,7 @@ export default function Homeleft() {
     <div className="home_left">
       <div className="home_left_top_content">
         <ul>
-          <HomeLeftTopList name='Jonathan Digay' />
+          <HomeLeftTopList name='Jonathan Digay' dp={dp} />
           <HomeLeftTopList name='Friends' icon="fas fa-user-friends" />
           <HomeLeftTopList name='Pages' icon="fas fa-flag" />
           <HomeLeftTopList name='Jobs' icon="fas fa-briefcase" />

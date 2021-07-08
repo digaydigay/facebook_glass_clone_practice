@@ -10,7 +10,7 @@ export default function postitem({ user, video, update, description, big }) {
 
         <div className="user_post_info">
           <div className="dp">
-            {/* <Img layout="fill" src="/images/profile.JPG" alt="dp" /> */}
+            <Img layout="fill" src={mark} alt="dp" />
           </div>
           <div className="post_user_time">
             <h5 className="user">{user}</h5>
