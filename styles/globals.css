@@ -6,7 +6,6 @@ body {
     Helvetica Neue, sans-serif;
   background: linear-gradient(-80deg, #56fdfd, #44a0d4);
   /* background: linear-gradient(80deg, black, gray); */
-  scroll-behavior: smooth;
 }
 
 a {

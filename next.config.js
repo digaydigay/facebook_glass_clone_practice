@@ -1,7 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    loader: 'imgix',
-    path: 'https://example.com/myaccount/',
+    domains: ['scontent.fmnl6-1.fna.fbcdn.net'],
   },
 }

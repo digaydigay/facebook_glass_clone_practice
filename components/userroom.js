@@ -4,7 +4,7 @@ import Img from "next/image"
 export default function userroom({ user }) {
   return (
     <div className="dp">
-      <img src={user} alt="dp" />
+      {/* <Img layout="fill" src="/images/profile.JPG" alt="dp" /> */}
     </div>
   )
 }

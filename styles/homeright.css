@@ -1,5 +1,5 @@
 .home_right {
-  background: rgb(255, 255, 255, 0.5);
+  background: rgb(255, 255, 255, 0.4);
   border-radius: 10px;
   height: 100%;
   padding: 0 20px 20px;
@@ -13,11 +13,10 @@
 .home_right::-webkit-scrollbar {
   width: 10px;
   position: relative;
-  display: none;
 }
 .home_right::-webkit-scrollbar-thumb {
   background: rgb(207, 206, 206);
-  border-radius: 50px;
+  border-radius: 10px;
 }
 .home_right {
   padding: 10px 20px;
@@ -45,12 +44,20 @@
   align-items: center;
   height: 100px;
   margin: 20px 0;
+  position: relative;
 }
 .home_right_top_content .lists .item img {
+}
+.home_right_top_content .lists .item .poster {
+  width: 200px;
+  max-width: 200px;
   margin: 10px;
-  max-width: 90px;
+  height: 200px;
+  box-shadow: 0 0 3px 0 #44a0d4;
+  background: red;
   height: unset;
   border-radius: 10px;
+  position: relative;
 }
 
 .home_right_middle_content .lists,
